@@ -8,7 +8,7 @@
 body {
   font: 1em/1.7 'Helvetica', san-serif;
   font-weight: 300;
-  color: #474747;
+  color: #4C5454;
 }
 .container {
   width: 80%;
@@ -333,11 +333,11 @@ header {
 .main-header-h {
   font: 3em/1.5 'Montserrat', san-serif;
   font-weight: 100;
-  color: #f39c12;
+  color: #fff;
   margin-top: 1.5em;
 }
 .main-header-p {
-  color: #95a5a6;
+  color: #BDD3D5;
   font-size: 1em;
   margin-top: 8px;
 }
@@ -347,7 +347,7 @@ header {
       text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: 600;
-      color: #283D52;
+      color: #383D3D;
       margin-bottom: .5em;
     }
     .item-texts p,
@@ -465,7 +465,7 @@ header {
     transition: color .28s ease;
     text-transform: none;
     letter-spacing: 0;
-    font-weight: 100;
+    font-weight: 300;
   }
 
 
