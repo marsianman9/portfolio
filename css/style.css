@@ -9,6 +9,8 @@ body {
   font: 1em/1.7 'Helvetica', san-serif;
   font-weight: 300;
   color: #4C5454;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .container {
   width: 80%;
@@ -104,7 +106,7 @@ header {
     padding: 1em;
     color: #bdc3c7;
     font-weight: bold;
-    font: .7em 'Montserrat', san-sans-serif;
+    font: 1em 'Montserrat', san-sans-serif;
     /* text-transform: uppercase; */
     letter-spacing: .7px;
   }
@@ -163,7 +165,7 @@ header {
   100% {opacity: 1; transform: translateX(0px);}
 }
   #showcase .container {
-    font-size: .85em;
+    font-size: 1em;
     height: 500px;
     text-align: left;
     display: flex;
@@ -175,12 +177,11 @@ header {
   }
     #showcase .container h1 {
       font: 4em 'Montserrat', san-serif;
-      font-weight: 600;
       color: #283D52;
       letter-spacing: -2px;
       line-height: 1.12;
       position: relative;
-      font-weight: 100;
+      font-weight: 600;
       transform: translateX(-300px);
       opacity: 0;
       animation: hSlide .8s ease forwards;
@@ -346,13 +347,13 @@ header {
       font: 1.2em 'Montserrat', san-serif;
       text-transform: uppercase;
       letter-spacing: 1px;
-      font-weight: 700;
+      font-weight: 900;
       color: #283D52;
       margin-bottom: .5em;
     }
     .item-texts p,
     .box p {
-      font-size: .9em;
+      font-size: 1em;
       color: #565656;
       margin-bottom: 1em;
       font-weight: 300;
@@ -590,7 +591,7 @@ footer {
     border-top: 2px solid #f39c12;
   }
     .nav a {
-      font-size: .7em;
+      font-size: 1em;
     }
   .sub-menu {
     background: #2c3e50;
@@ -599,7 +600,7 @@ footer {
     position: absolute;
   }
   .nav ul a {
-    font-size: .7em;
+    font-size: 1em;
   }
   #showcase .container {
     text-align: left;
