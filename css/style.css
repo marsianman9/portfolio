@@ -57,7 +57,8 @@ header {
   background-blend-mode: luminosity;
   position: sticky;
   top: 0;
-  width: 100%:
+  width: 100%;
+  z-index: 9999;
   /* border-bottom: 3px solid #f39c12; */
 }
   header .container {
@@ -572,7 +573,7 @@ footer {
   header .container {
     flex-direction: row;
     padding: 2em 5em;
-    height: 130px;
+/*     height: 130px; */
     align-items: center;
   }
   #branding {
@@ -583,7 +584,7 @@ footer {
     margin-top: 0;
     display: flex;
     visibility: visible;
-    height: 100px;
+/*     height: 100px; */
     align-items: center;
   }
   .nav li {
