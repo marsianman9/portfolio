@@ -55,8 +55,8 @@ header {
   background-size: cover;
   background-color: #283D52;
   background-blend-mode: luminosity;
-  position: sticky;
-  top: 0;
+/*   position: sticky;
+  top: 0; */
   width: 100%;
   z-index: 9999;
   /* border-bottom: 3px solid #f39c12; */
